@@ -5,6 +5,7 @@
 ### Justin S. Cooksey - 2024-10-13
 
 Scripting to convert Cisco DHCP settings taken from an exported configuration file directly into a Windows DHCP Server.
+[An article on script can be found here.](https://justincooksey.com/blog/2024/2024-10-13-cisco-dhcp-conversion-to-windows-server)
 
 ## Usage
 

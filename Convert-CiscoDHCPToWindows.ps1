@@ -184,6 +184,9 @@ foreach ($scope in $listScopes) {
     if($scope.DomainName) {
         Set-DhcpServerv4OptionValue -ScopeId $scope.Network.NetworkAddress -DnsDomain $scope.DomainName -Force
     }
+    if($scope.NTPServerList){
+        Set-DhcpServerv4OptionValue -ScopeId $scope.Network.NetworkAddress -DnsDomain $scope.DomainName -Force
+    }
     if($scope.Option43) {
         $strValue = $scope.Option43.Replace(".","")
         $endIndex = ($strValue.Length / 2) - 1

@@ -1,7 +1,5 @@
 # Convert (Import) Cisco Configuration DHCP into Windows Server DHCP
 
-
-
 ## Version 0.0.9
 
 ### Justin S. Cooksey - 2024-10-13
@@ -14,10 +12,8 @@ Scripting to convert Cisco DHCP settings taken from an exported configuration fi
 Convert-CiscoDHCPToWindows
 ```
 
-- It will ask for the DHCP host servername.
-- It will require to have administrtor privilegde to be able to export the DHCP scopes.
-- Working files are stored under the current %TEMP% path
-- Output file is stored in the execution path.
+- Manual entry of filename to mimport is in the script. **To be changed**
+- It will require to have administrtor privilegde to be able to create DHCP scopes etc.
 
 
 
